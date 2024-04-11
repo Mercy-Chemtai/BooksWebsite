@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(211,218,235) ;
+}
+
+.container{
+    background-color: aliceblue;
+    margin:2%
+    
+    
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-decoration: none;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 40px;
+    padding-left: 20%;
+
+}
+.logo{
+    display: flex;
+}
+.button{
+    border-radius: 10px;
+    height: 40px;
+}
+.sublogo{
+    display: flex;
+    padding-left: 20%;
+}
+.page1{
+    margin: 20px;
+    font-size: xx-large;
+    display: flex;
+}
+.placeholder{
+    gap:50%;
+}
+.subpage2{
+    background-color:rgb(240,193,127) ;
+    border-radius: 50% ;
+    width: 400px;
+}
+.icons{
+    display: flex;
+    
+}
+.footer{
+    padding-left: 40%;
+    background-color: rgb(227,240,239);
+}
+
+
+
+@media only screen and (max-width: 650px) and (min-width: 350){
+    body{
+        background-color: rgb(211,218,235) ;
+    }
+    
+    .container{
+        background-color: aliceblue;
+        margin:2%
+        
+        
+    }
+    
+    #navbar {
+        display: grid;
+        flex-direction: row;
+        gap:1px
+        text-decoration: none;
+    }
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        
+        gap: 40px;
+        padding-left: 20%;
+    
+    }
+    .logo{
+        display: flex;
+    }
+    .button{
+        border-radius: 10px;
+        height: 40px;
+    }
+    .sublogo{
+        display: flex;
+        padding-left: 20%;
+    }
+    .page1{
+        margin: 20px;
+        font-size: xx-large;
+        display: flex;
+    }
+    .placeholder{
+        gap:50%;
+    }
+    .subpage2{
+        background-color:rgb(240,193,127) ;
+        border-radius: 50% ;
+        width: 400px;
+    }
+    .icons{
+        display: flex;
+        
+    }
+    .footer{
+        padding-left: 40%;
+        background-color: rgb(227,240,239);
+    }
+    
+}
