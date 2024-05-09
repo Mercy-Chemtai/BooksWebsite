@@ -61,11 +61,27 @@ body{
     display:flex ;
     gap:10%
 }
-.input-button{
-    gap:50%;
-}
-.input-button button{
-    border-radius: 50px;background-color: rgb(125,188,182)
+.input-button input{ 
+     padding: 10px;
+     width: 600px;
+     height: 40px;
+     font-size: 20px;
+     border:solid rgb(201, 197, 197);
+     border-radius: 30px;
+     margin-left: 10px;
+ } 
+ .input-button button{ 
+    border-radius: 50px;background-color: rgb(125,188,182);
+
+    padding: 10px;
+           margin: 10px;
+           position: absolute;
+           border: none;
+           background-color: rgb(114,183,177);
+           border-radius: 200px;
+           width: 130px;
+           height: 60px;
+           margin-right:20px ;
 }
 .image{
     background-color:rgb(240,193,127) ;
@@ -77,19 +93,27 @@ body{
 
 }
 .companies-logo{
-   row-gap:20% ; 
+   width: 10%;
+   gap: 50px;
+   padding-right: 5%;
+   
 
 }
     
     
 .footer{
-    padding-left: 40%;
+    padding-left: 13%;
     background-color: rgb(227,240,239);
+
 }
 .image1{
     border-radius: 100%;
     
     
+}
+p{
+    font-size: 40px;
+    padding-left: 70px;
 }
 
 
@@ -105,6 +129,8 @@ body{
     #navbar {
         flex-wrap: wrap;
         text-decoration: none;
+        display: grid;
+        
     }
     #navbar a {     
     flex-wrap: wrap;
@@ -139,13 +165,13 @@ body{
         
     }
     .footer{
-        padding-left: 40%;
+        padding-left: 13%;
        
     }
     .image1{
-        height: 65%;
-        width: 80%;
-        border-radius: 80%;
+        height: 15%;
+        width: 20%;
+        border-radius: 20%;
         background-color: rgb(227,240,239);
     }
     
