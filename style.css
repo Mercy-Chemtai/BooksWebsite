@@ -1,120 +1,341 @@
 body{
-    background-color: rgb(211,218,235) ;
+    background-color:  aliceblue ;
 }
 
-.container{
+.main-container{
     background-color: aliceblue;
     margin:2%
     
     
 }
 
-#navbar {
+#navbar a{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
     text-decoration: none;
+    color: #000;
 }
-#nav-bar {
+#navbar{
     display: flex;
     flex-direction: row;
     
-    gap: 40px;
-    padding-left: 20%;
+    gap: 50px;
+    padding-left: 5%;
 
 }
 .logo{
     display: flex;
 }
+
+.login-button{
+    display: flex;
+    gap: 10px;
+}
+
+
 .button{
     border-radius: 10px;
     height: 40px;
+    background-color: rgb(125,188,182);
+    color: aliceblue;
+    width: 50%;
+   
 }
-.sublogo{
+.login-button {
     display: flex;
-    padding-left: 20%;
+    flex-direction: row;
+    padding-left: 40%;
+    font-size: 20px;
+    width: 20%;
 }
-.page1{
+
+
+
+.landing-page{
     margin: 20px;
     font-size: xx-large;
-    display: flex;
+    
 }
-.placeholder{
+.message{
+    display:flex ;
+    gap:10%
+}
+.input-button{
     gap:50%;
 }
-.subpage2{
+.input-button button{
+    border-radius: 50px;background-color: rgb(125,188,182)
+}
+.image{
     background-color:rgb(240,193,127) ;
     border-radius: 50% ;
     width: 400px;
 }
 .icons{
     display: flex;
-    
+
 }
+.companies-logo{
+   row-gap:20% ; 
+
+}
+    
+    
 .footer{
     padding-left: 40%;
     background-color: rgb(227,240,239);
 }
+.image1{
+    border-radius: 100%;
+    
+    
+}
 
 
-
-@media only screen and (max-width: 650px) and (min-width: 350){
+@media only screen and (max-width: 554px) and (min-width: 280px){
     body{
         background-color: rgb(211,218,235) ;
     }
     
     .container{
         background-color: aliceblue;
-        margin:2%
-        
-        
+        margin:2%  
     }
-    
     #navbar {
-        display: grid;
-        flex-direction: row;
-        gap:1px
+        flex-wrap: wrap;
         text-decoration: none;
     }
-    #nav-bar {
-        display: flex;
-        flex-direction: row;
-        
-        gap: 40px;
-        padding-left: 20%;
-    
+    #navbar a {     
+    flex-wrap: wrap;
     }
     .logo{
-        display: flex;
+    flex-wrap: wrap;
+        
     }
     .button{
         border-radius: 10px;
         height: 40px;
     }
     .sublogo{
-        display: flex;
+        flex-wrap: wrap;
         padding-left: 20%;
     }
     .page1{
         margin: 20px;
-        font-size: xx-large;
-        display: flex;
+        font-size: small;
+        flex-wrap: wrap;
+        
     }
-    .placeholder{
-        gap:50%;
-    }
+    
     .subpage2{
         background-color:rgb(240,193,127) ;
         border-radius: 50% ;
         width: 400px;
     }
     .icons{
-        display: flex;
+        flex-wrap: wrap;
+        
         
     }
     .footer{
         padding-left: 40%;
+       
+    }
+    .image1{
+        height: 65%;
+        width: 80%;
+        border-radius: 80%;
         background-color: rgb(227,240,239);
     }
     
+}
+
+@media only screen and (max-width: 980px) and (min-width: 554px){
+    body{
+        background-color:  aliceblue ;
+    }
+    
+    .main-container{
+        background-color: aliceblue;
+    
+        
+        
+    }
+    
+    #navbar a{
+        flex-wrap: wrap;
+        gap: 10px;
+        text-decoration: none;
+        color: #000;
+    }
+    #navbar{
+        flex-wrap: wrap;
+        gap: 1px;
+        padding-left: 1%;
+    
+    }
+    .logo{
+        flex-wrap: wrap;
+    }
+    
+    .login-button{
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    
+    
+    .button{
+        border-radius: 10px;
+        height: 20px;
+        background-color: rgb(125,188,182);
+        color: aliceblue;
+        width: 5%;
+       
+    }
+    .login-button {
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 10%;
+        font-size: 5px;
+        width: 10%;
+    }
+    
+    
+    
+    .landing-page{
+        margin: 5px;
+        font-size: small;
+        
+    }
+    .message{
+        flex-wrap: wrap ;
+        gap:5%
+    }
+    .input-button{
+        gap:5%;
+    }
+    .input-button button{
+        border-radius: 20px;
+        background-color: rgb(125,188,182)
+    }
+    .image{
+        background-color:rgb(240,193,127) ;
+        border-radius: 29% ;
+        width: 200px;
+    }
+    .icons{
+        flex-wrap: wrap;
+    
+    }
+    .companies-logo{
+       row-gap:10% ; 
+    
+    }
+        
+        
+    .footer{
+        padding-left: 30%;
+        background-color: rgb(227,240,239);
+    }
+    .image1{
+        border-radius: 20%;
+        
+        
+    }
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 980px){
+    body{
+        background-color:  aliceblue ;
+    }
+    
+    .main-container{
+        background-color: aliceblue;
+    
+        
+        
+    }
+    
+    #navbar a{
+        flex-wrap: wrap;
+        gap: 10px;
+        text-decoration: none;
+        color: #000;
+    }
+    #navbar{
+        flex-wrap: wrap;
+        gap: 1px;
+        padding-left: 1%;
+    
+    }
+    .logo{
+        flex-wrap: wrap;
+    }
+    
+    .login-button{
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    
+    
+    .button{
+        border-radius: 10px;
+        height: 20px;
+        background-color: rgb(125,188,182);
+        color: aliceblue;
+        width: 5%;
+       
+    }
+    .login-button {
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 10%;
+        font-size: 5px;
+        width: 10%;
+    }
+    
+    
+    
+    .landing-page{
+        margin: 5px;
+        font-size: small;
+        
+    }
+    .message{
+        flex-wrap: wrap ;
+        gap:5%
+    }
+    .input-button{
+        gap:5%;
+    }
+    .input-button button{
+        border-radius: 20px;
+        background-color: rgb(125,188,182)
+    }
+    .image{
+        background-color:rgb(240,193,127) ;
+        border-radius: 29% ;
+        width: 200px;
+    }
+    .icons{
+        flex-wrap: wrap;
+    
+    }
+    .companies-logo{
+       row-gap:10% ; 
+    
+    }
+        
+        
+    .footer{
+        padding-left: 30%;
+        background-color: rgb(227,240,239);
+    }
+    .image1{
+        border-radius: 20%;
+        
+        
+    }
 }
